@@ -415,21 +415,21 @@ position = Vector2(1, -7)
 sprite_frames = SubResource("SpriteFrames_oprun")
 animation = &"walking_base"
 autoplay = "idle_base"
-frame_progress = 0.0107637
+frame_progress = 0.0711662
 
 [node name="HairSpriteAnimation" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -7)
 sprite_frames = SubResource("SpriteFrames_ke2ow")
 animation = &"walking_hair"
 autoplay = "idle_hair"
-frame_progress = 0.296227
+frame_progress = 0.356649
 
 [node name="ToolSpriteAnimation" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -7)
 sprite_frames = SubResource("SpriteFrames_bj30b")
 animation = &"walking_tool"
 autoplay = "idle_tool"
-frame_progress = 0.546977
+frame_progress = 0.607402
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, -6)

@@ -3,20 +3,22 @@ extends CharacterBody2D
 
 const SPEED = 75
 const JUMP_VELOCITY = -400.0
+@onready var base_sprite_animation: AnimatedSprite2D = $BaseSpriteAnimation
+@onready var hair_sprite_animation: AnimatedSprite2D = $HairSpriteAnimation
+@onready var tool_sprite_animation: AnimatedSprite2D = $ToolSpriteAnimation
 
 
 func _physics_process(delta: float) -> void:
-	# Add the gravity.
-	if not is_on_floor():
-		velocity += get_gravity() * delta
-
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
-
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var direction := Input.get_axis("ui_left", "ui_right")
+	var direction := Input.get_axis("move_left", "move_right")
+	
+	if direction > 0:
+		base_sprite_animation.flip_h = false
+		hair_sprite_animation.flip_h = false
+		tool_sprite_animation.flip_h = false
+	elif direction < 0:
+		base_sprite_animation.flip_h = true
+		hair_sprite_animation.flip_h = true
+		tool_sprite_animation.flip_h = true
 	if direction:
 		velocity.x = direction * SPEED
 	else:
