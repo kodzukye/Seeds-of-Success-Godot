@@ -2,12 +2,13 @@ extends CharacterBody2D
 
 
 const SPEED = 75
-const JUMP_VELOCITY = -400.0
+const SPRINT = SPEED * 1.75
 @onready var base_sprite_animation: AnimatedSprite2D = $BaseSpriteAnimation
 @onready var hair_sprite_animation: AnimatedSprite2D = $HairSpriteAnimation
 @onready var tool_sprite_animation: AnimatedSprite2D = $ToolSpriteAnimation
 
 var direction : Vector2
+var is_sprinting = false
 
 
 func _physics_process(delta: float) -> void:
@@ -25,6 +26,11 @@ func _physics_process(delta: float) -> void:
 		direction = Vector2.RIGHT
 	else:
 		direction = Vector2.ZERO
+		
+	if Input.is_action_pressed("sprint"):
+		is_sprinting = true
+	else:
+		is_sprinting = false
 	
 	# Flipping the sprite
 	if direction == Vector2.RIGHT: # Right
@@ -41,16 +47,21 @@ func _physics_process(delta: float) -> void:
 		base_sprite_animation.play("idle_base")
 		hair_sprite_animation.play("idle_hair")
 		tool_sprite_animation.play("idle_tool")
+		
+	elif is_sprinting and direction != Vector2.ZERO:
+		base_sprite_animation.play("running_base")
+		hair_sprite_animation.play("running_hair")
+		tool_sprite_animation.play("running_tool")
+		
 	else:
 		base_sprite_animation.play("walking_base")
 		hair_sprite_animation.play("walking_hair")
 		tool_sprite_animation.play("walking_tool")
 		
 	# Apply the speed
-	velocity = direction * SPEED
-	"""if direction1:
-		velocity.x = direction1 * SPEED
+	if is_sprinting and direction != Vector2.ZERO:
+		velocity = direction * SPRINT
 	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)"""
+		velocity = direction * SPEED
 
 	move_and_slide()
