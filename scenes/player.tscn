@@ -1,8 +1,12 @@
-[gd_scene load_steps=35 format=3 uid="uid://5ttu1fe400ue"]
+[gd_scene load_steps=63 format=3 uid="uid://5ttu1fe400ue"]
 
+[ext_resource type="Script" uid="uid://d055fixjk1xpv" path="res://scripts/player.gd" id="1_dqkch"]
 [ext_resource type="Texture2D" uid="uid://ctqqhgccxswkl" path="res://assets/sprites/player/idle/base_idle_strip9.png" id="1_qhqgy"]
 [ext_resource type="Texture2D" uid="uid://dlqs76ay4xevs" path="res://assets/sprites/player/idle/curlyhair_idle_strip9.png" id="2_dqkch"]
+[ext_resource type="Texture2D" uid="uid://dvhilvjt3svn" path="res://assets/sprites/player/walking/base_walking_strip8.png" id="3_fjrip"]
 [ext_resource type="Texture2D" uid="uid://dxc5k42xf6mtb" path="res://assets/sprites/player/idle/tools_idle_strip9.png" id="3_qlg0r"]
+[ext_resource type="Texture2D" uid="uid://drgkipyou4mwh" path="res://assets/sprites/player/walking/curlyhair_walking_strip8.png" id="5_smehm"]
+[ext_resource type="Texture2D" uid="uid://csagbsq3mwdh0" path="res://assets/sprites/player/walking/tools_walking_strip8.png" id="7_ur7pv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tuyoq"]
 atlas = ExtResource("1_qhqgy")
@@ -40,6 +44,38 @@ region = Rect2(672, 0, 96, 64)
 atlas = ExtResource("1_qhqgy")
 region = Rect2(768, 0, 96, 64)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_oprun"]
+atlas = ExtResource("3_fjrip")
+region = Rect2(0, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ke2ow"]
+atlas = ExtResource("3_fjrip")
+region = Rect2(96, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bj30b"]
+atlas = ExtResource("3_fjrip")
+region = Rect2(192, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jc3p3"]
+atlas = ExtResource("3_fjrip")
+region = Rect2(288, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hax0n"]
+atlas = ExtResource("3_fjrip")
+region = Rect2(384, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t4otl"]
+atlas = ExtResource("3_fjrip")
+region = Rect2(480, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j2b1d"]
+atlas = ExtResource("3_fjrip")
+region = Rect2(576, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cs1tg"]
+atlas = ExtResource("3_fjrip")
+region = Rect2(672, 0, 96, 64)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_oprun"]
 animations = [{
 "frames": [{
@@ -73,6 +109,35 @@ animations = [{
 "loop": true,
 "name": &"idle_base",
 "speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oprun")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ke2ow")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bj30b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jc3p3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hax0n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t4otl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j2b1d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cs1tg")
+}],
+"loop": true,
+"name": &"walking_base",
+"speed": 10.0
 }]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a8ls1"]
@@ -111,6 +176,38 @@ region = Rect2(672, 0, 96, 64)
 atlas = ExtResource("2_dqkch")
 region = Rect2(768, 0, 96, 64)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_2dvfe"]
+atlas = ExtResource("5_smehm")
+region = Rect2(0, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_giy8y"]
+atlas = ExtResource("5_smehm")
+region = Rect2(96, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fdfoy"]
+atlas = ExtResource("5_smehm")
+region = Rect2(192, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hhpqf"]
+atlas = ExtResource("5_smehm")
+region = Rect2(288, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g5jhy"]
+atlas = ExtResource("5_smehm")
+region = Rect2(384, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_holxr"]
+atlas = ExtResource("5_smehm")
+region = Rect2(480, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mx1m4"]
+atlas = ExtResource("5_smehm")
+region = Rect2(576, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4gjji"]
+atlas = ExtResource("5_smehm")
+region = Rect2(672, 0, 96, 64)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_ke2ow"]
 animations = [{
 "frames": [{
@@ -144,6 +241,35 @@ animations = [{
 "loop": true,
 "name": &"idle_hair",
 "speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2dvfe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_giy8y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fdfoy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hhpqf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g5jhy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_holxr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mx1m4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4gjji")
+}],
+"loop": true,
+"name": &"walking_hair",
+"speed": 10.0
 }]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ujl30"]
@@ -182,6 +308,38 @@ region = Rect2(672, 0, 96, 64)
 atlas = ExtResource("3_qlg0r")
 region = Rect2(768, 0, 96, 64)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_u2ulf"]
+atlas = ExtResource("7_ur7pv")
+region = Rect2(0, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6e8lb"]
+atlas = ExtResource("7_ur7pv")
+region = Rect2(96, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2gdjj"]
+atlas = ExtResource("7_ur7pv")
+region = Rect2(192, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sc3ue"]
+atlas = ExtResource("7_ur7pv")
+region = Rect2(288, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lxlsd"]
+atlas = ExtResource("7_ur7pv")
+region = Rect2(384, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ha2mi"]
+atlas = ExtResource("7_ur7pv")
+region = Rect2(480, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_apa73"]
+atlas = ExtResource("7_ur7pv")
+region = Rect2(576, 0, 96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_74r1k"]
+atlas = ExtResource("7_ur7pv")
+region = Rect2(672, 0, 96, 64)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_bj30b"]
 animations = [{
 "frames": [{
@@ -215,33 +373,63 @@ animations = [{
 "loop": true,
 "name": &"idle_tool",
 "speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u2ulf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6e8lb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2gdjj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sc3ue")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lxlsd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ha2mi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_apa73")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_74r1k")
+}],
+"loop": true,
+"name": &"walking_tool",
+"speed": 10.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_jc3p3"]
 radius = 6.0
 
 [node name="PlayerBody" type="CharacterBody2D"]
+script = ExtResource("1_dqkch")
 
 [node name="BaseSpriteAnimation" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -7)
 sprite_frames = SubResource("SpriteFrames_oprun")
-animation = &"idle_base"
+animation = &"walking_base"
 autoplay = "idle_base"
-frame_progress = 0.850843
+frame_progress = 0.0107637
 
 [node name="HairSpriteAnimation" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -7)
 sprite_frames = SubResource("SpriteFrames_ke2ow")
-animation = &"idle_hair"
+animation = &"walking_hair"
 autoplay = "idle_hair"
-frame_progress = 0.129524
+frame_progress = 0.296227
 
 [node name="ToolSpriteAnimation" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -7)
 sprite_frames = SubResource("SpriteFrames_bj30b")
-animation = &"idle_tool"
+animation = &"walking_tool"
 autoplay = "idle_tool"
-frame_progress = 0.710227
+frame_progress = 0.546977
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, -6)
