@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmb3k5sfi3ep6"
-path="res://.godot/imported/skeleton_idle_strip6.png-f9cf760b4bb21f7970e01ed29a52adff.ctex"
+path="res://.godot/imported/skeleton_idle_strip6.png-d3691950976ee3971f48e29fd30452c9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Ennemies/Skeleton/skeleton_idle_strip6.png"
-dest_files=["res://.godot/imported/skeleton_idle_strip6.png-f9cf760b4bb21f7970e01ed29a52adff.ctex"]
+source_file="res://assets/sprites/ennemies/skeleton/skeleton_idle_strip6.png"
+dest_files=["res://.godot/imported/skeleton_idle_strip6.png-d3691950976ee3971f48e29fd30452c9.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cl5117x2m1rw1"
-path="res://.godot/imported/sandtimer.png-653fd0b989a1f5a01155d7306fb6acc0.ctex"
+path="res://.godot/imported/sandtimer.png-a1f71e6ff1f58478be36fd02cb5015d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/UI/sandtimer.png"
-dest_files=["res://.godot/imported/sandtimer.png-653fd0b989a1f5a01155d7306fb6acc0.ctex"]
+source_file="res://assets/sprites/ui/sandtimer.png"
+dest_files=["res://.godot/imported/sandtimer.png-a1f71e6ff1f58478be36fd02cb5015d9.ctex"]
 
 [params]
 

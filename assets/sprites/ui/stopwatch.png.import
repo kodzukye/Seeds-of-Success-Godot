@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dp6n2ppvm2aiy"
-path="res://.godot/imported/stopwatch.png-19f34cc19798ab304acbf8f84ff91d0a.ctex"
+path="res://.godot/imported/stopwatch.png-fc2b7c09566699910f8bff5d7218a51d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/UI/stopwatch.png"
-dest_files=["res://.godot/imported/stopwatch.png-19f34cc19798ab304acbf8f84ff91d0a.ctex"]
+source_file="res://assets/sprites/ui/stopwatch.png"
+dest_files=["res://.godot/imported/stopwatch.png-fc2b7c09566699910f8bff5d7218a51d.ctex"]
 
 [params]
 

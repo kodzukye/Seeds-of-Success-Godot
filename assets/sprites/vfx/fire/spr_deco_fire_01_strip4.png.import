@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btgy2c02vrxfw"
-path="res://.godot/imported/spr_deco_fire_01_strip4.png-c081cb5e05cc45393b83d64e7a1fb713.ctex"
+path="res://.godot/imported/spr_deco_fire_01_strip4.png-455026c4808c2926f59423d15b9874a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/VFX/Fire/spr_deco_fire_01_strip4.png"
-dest_files=["res://.godot/imported/spr_deco_fire_01_strip4.png-c081cb5e05cc45393b83d64e7a1fb713.ctex"]
+source_file="res://assets/sprites/vfx/fire/spr_deco_fire_01_strip4.png"
+dest_files=["res://.godot/imported/spr_deco_fire_01_strip4.png-455026c4808c2926f59423d15b9874a4.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdp7nsherfcf6"
-path="res://.godot/imported/spr_deco_windmillshadow_strip9.png-d4a49898add2b6fb069a368fa4ad7be1.ctex"
+path="res://.godot/imported/spr_deco_windmillshadow_strip9.png-1c195866c7473f1639c924cc8d647bed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Decorations/spr_deco_windmillshadow_strip9.png"
-dest_files=["res://.godot/imported/spr_deco_windmillshadow_strip9.png-d4a49898add2b6fb069a368fa4ad7be1.ctex"]
+source_file="res://assets/sprites/decorations/spr_deco_windmillshadow_strip9.png"
+dest_files=["res://.godot/imported/spr_deco_windmillshadow_strip9.png-1c195866c7473f1639c924cc8d647bed.ctex"]
 
 [params]
 

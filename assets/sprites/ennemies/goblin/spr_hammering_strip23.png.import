@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2cwq8bbmmnpx"
-path="res://.godot/imported/spr_hammering_strip23.png-3181b3bc1b34fcb902803e9611f039e4.ctex"
+path="res://.godot/imported/spr_hammering_strip23.png-e1c7d28863af2a683bfd6ab4237ade16.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Ennemies/Goblin/spr_hammering_strip23.png"
-dest_files=["res://.godot/imported/spr_hammering_strip23.png-3181b3bc1b34fcb902803e9611f039e4.ctex"]
+source_file="res://assets/sprites/ennemies/goblin/spr_hammering_strip23.png"
+dest_files=["res://.godot/imported/spr_hammering_strip23.png-e1c7d28863af2a683bfd6ab4237ade16.ctex"]
 
 [params]
 

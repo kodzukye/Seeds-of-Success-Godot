@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0p6b8adrb3eh"
-path="res://.godot/imported/spr_walk_strip8.png-f0174665464fa2a3780fcd9a8af3a100.ctex"
+path="res://.godot/imported/spr_walk_strip8.png-86deb3284601b04681aa572e8d820fbd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Ennemies/Goblin/spr_walk_strip8.png"
-dest_files=["res://.godot/imported/spr_walk_strip8.png-f0174665464fa2a3780fcd9a8af3a100.ctex"]
+source_file="res://assets/sprites/ennemies/goblin/spr_walk_strip8.png"
+dest_files=["res://.godot/imported/spr_walk_strip8.png-86deb3284601b04681aa572e8d820fbd.ctex"]
 
 [params]
 

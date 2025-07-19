@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bw11tsynn6gvj"
-path="res://.godot/imported/hand_closed_02.png-941e93899bd7329b5ff59f66581fbb59.ctex"
+path="res://.godot/imported/hand_closed_02.png-e78d0029f52dfe565f7d5854dbeddebc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/UI/hand_closed_02.png"
-dest_files=["res://.godot/imported/hand_closed_02.png-941e93899bd7329b5ff59f66581fbb59.ctex"]
+source_file="res://assets/sprites/ui/hand_closed_02.png"
+dest_files=["res://.godot/imported/hand_closed_02.png-e78d0029f52dfe565f7d5854dbeddebc.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://sjwxu7p8t1kq"
-path="res://.godot/imported/select_dots_large.png-a699e54816b588f15721d237814f69db.ctex"
+path="res://.godot/imported/select_dots_large.png-3b1d6f62bd58a66ffaf146b9e36472ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/UI/select_dots_large.png"
-dest_files=["res://.godot/imported/select_dots_large.png-a699e54816b588f15721d237814f69db.ctex"]
+source_file="res://assets/sprites/ui/select_dots_large.png"
+dest_files=["res://.godot/imported/select_dots_large.png-3b1d6f62bd58a66ffaf146b9e36472ed.ctex"]
 
 [params]
 

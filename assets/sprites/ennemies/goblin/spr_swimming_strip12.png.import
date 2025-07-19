@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1l7w0yqef38o"
-path="res://.godot/imported/spr_swimming_strip12.png-54a86d3e116409abd169466691bb04ad.ctex"
+path="res://.godot/imported/spr_swimming_strip12.png-527dc895199ba6f13bcf728c3a3e11be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Ennemies/Goblin/spr_swimming_strip12.png"
-dest_files=["res://.godot/imported/spr_swimming_strip12.png-54a86d3e116409abd169466691bb04ad.ctex"]
+source_file="res://assets/sprites/ennemies/goblin/spr_swimming_strip12.png"
+dest_files=["res://.godot/imported/spr_swimming_strip12.png-527dc895199ba6f13bcf728c3a3e11be.ctex"]
 
 [params]
 

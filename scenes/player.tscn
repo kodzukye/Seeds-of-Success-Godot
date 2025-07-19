@@ -591,9 +591,10 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_jc3p3"]
-radius = 6.0
+radius = 5.09902
 
 [node name="PlayerBody" type="CharacterBody2D"]
+collision_mask = 3
 script = ExtResource("1_dqkch")
 
 [node name="BaseSpriteAnimation" type="AnimatedSprite2D" parent="."]
@@ -601,21 +602,21 @@ position = Vector2(1, -7)
 sprite_frames = SubResource("SpriteFrames_oprun")
 animation = &"running_base"
 autoplay = "idle_base"
-frame_progress = 0.668273
+frame_progress = 0.0584414
 
 [node name="HairSpriteAnimation" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -7)
 sprite_frames = SubResource("SpriteFrames_ke2ow")
 animation = &"running_hair"
 autoplay = "idle_hair"
-frame_progress = 0.447248
+frame_progress = 0.837418
 
 [node name="ToolSpriteAnimation" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -7)
 sprite_frames = SubResource("SpriteFrames_bj30b")
 animation = &"running_tool"
 autoplay = "idle_tool"
-frame_progress = 0.335065
+frame_progress = 0.725236
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, -6)

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tlg4iwhfldi7"
-path="res://.godot/imported/label_right.png-b0599be2c6112597366eadb85edf2d46.ctex"
+path="res://.godot/imported/label_right.png-b5ff5a08f6d1cc3ef4dad1bee808f4ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/UI/label_right.png"
-dest_files=["res://.godot/imported/label_right.png-b0599be2c6112597366eadb85edf2d46.ctex"]
+source_file="res://assets/sprites/ui/label_right.png"
+dest_files=["res://.godot/imported/label_right.png-b5ff5a08f6d1cc3ef4dad1bee808f4ed.ctex"]
 
 [params]
 

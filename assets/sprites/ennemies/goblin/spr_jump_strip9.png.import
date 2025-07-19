@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdn6ibslxn53a"
-path="res://.godot/imported/spr_jump_strip9.png-e20928f8a2ea9179f600c9b788ffb1a4.ctex"
+path="res://.godot/imported/spr_jump_strip9.png-a2136de6f56e44053fb6972cd75e325c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Ennemies/Goblin/spr_jump_strip9.png"
-dest_files=["res://.godot/imported/spr_jump_strip9.png-e20928f8a2ea9179f600c9b788ffb1a4.ctex"]
+source_file="res://assets/sprites/ennemies/goblin/spr_jump_strip9.png"
+dest_files=["res://.godot/imported/spr_jump_strip9.png-a2136de6f56e44053fb6972cd75e325c.ctex"]
 
 [params]
 

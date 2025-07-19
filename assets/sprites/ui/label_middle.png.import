@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dienopgeaptra"
-path="res://.godot/imported/label_middle.png-6d442116c96b5b1cb9dd675f32bfb421.ctex"
+path="res://.godot/imported/label_middle.png-f28edd7daa58136e96cb59b2e739b2a8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/UI/label_middle.png"
-dest_files=["res://.godot/imported/label_middle.png-6d442116c96b5b1cb9dd675f32bfb421.ctex"]
+source_file="res://assets/sprites/ui/label_middle.png"
+dest_files=["res://.godot/imported/label_middle.png-f28edd7daa58136e96cb59b2e739b2a8.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx0hpyoxcly4r"
-path="res://.godot/imported/redbar_04.png-ff20eccae7097f4478fd36d8e3efa194.ctex"
+path="res://.godot/imported/redbar_04.png-08d2b925514eb028cbac507f7b05b1bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/UI/redbar_04.png"
-dest_files=["res://.godot/imported/redbar_04.png-ff20eccae7097f4478fd36d8e3efa194.ctex"]
+source_file="res://assets/sprites/ui/redbar_04.png"
+dest_files=["res://.godot/imported/redbar_04.png-08d2b925514eb028cbac507f7b05b1bf.ctex"]
 
 [params]
 

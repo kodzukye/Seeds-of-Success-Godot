@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tqfirflvxgmd"
-path="res://.godot/imported/spr_deco_glint_02_strip4.png-f1f252468c979da8ea38b104ef129bf3.ctex"
+path="res://.godot/imported/spr_deco_glint_02_strip4.png-3bda88656d4890f536b4770bee91f8b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/VFX/Glint/spr_deco_glint_02_strip4.png"
-dest_files=["res://.godot/imported/spr_deco_glint_02_strip4.png-f1f252468c979da8ea38b104ef129bf3.ctex"]
+source_file="res://assets/sprites/vfx/glint/spr_deco_glint_02_strip4.png"
+dest_files=["res://.godot/imported/spr_deco_glint_02_strip4.png-3bda88656d4890f536b4770bee91f8b0.ctex"]
 
 [params]
 

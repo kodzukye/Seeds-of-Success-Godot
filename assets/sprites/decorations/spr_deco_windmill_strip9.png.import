@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg11nwuv1a73a"
-path="res://.godot/imported/spr_deco_windmill_strip9.png-03550d6c233ba274c02844445b7d6d8a.ctex"
+path="res://.godot/imported/spr_deco_windmill_strip9.png-66bce95243c6e2ed7a53ae3042ab7a21.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Decorations/spr_deco_windmill_strip9.png"
-dest_files=["res://.godot/imported/spr_deco_windmill_strip9.png-03550d6c233ba274c02844445b7d6d8a.ctex"]
+source_file="res://assets/sprites/decorations/spr_deco_windmill_strip9.png"
+dest_files=["res://.godot/imported/spr_deco_windmill_strip9.png-66bce95243c6e2ed7a53ae3042ab7a21.ctex"]
 
 [params]
 

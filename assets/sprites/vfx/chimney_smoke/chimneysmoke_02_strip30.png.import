@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbl337tu58bl5"
-path="res://.godot/imported/chimneysmoke_02_strip30.png-5bd72720134b21e4849b9494e62b8c11.ctex"
+path="res://.godot/imported/chimneysmoke_02_strip30.png-cac698a3ae8c31c48a9ced4c68f31077.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/VFX/Chimney Smoke/chimneysmoke_02_strip30.png"
-dest_files=["res://.godot/imported/chimneysmoke_02_strip30.png-5bd72720134b21e4849b9494e62b8c11.ctex"]
+source_file="res://assets/sprites/vfx/chimney_smoke/chimneysmoke_02_strip30.png"
+dest_files=["res://.godot/imported/chimneysmoke_02_strip30.png-cac698a3ae8c31c48a9ced4c68f31077.ctex"]
 
 [params]
 

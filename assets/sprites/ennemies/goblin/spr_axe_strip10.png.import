@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ban0eonpxsc6"
-path="res://.godot/imported/spr_axe_strip10.png-78de9228b0efde392d148c041de780db.ctex"
+path="res://.godot/imported/spr_axe_strip10.png-2b155a9bdd9a5d28f9fd4cd2aaa1da34.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Ennemies/Goblin/spr_axe_strip10.png"
-dest_files=["res://.godot/imported/spr_axe_strip10.png-78de9228b0efde392d148c041de780db.ctex"]
+source_file="res://assets/sprites/ennemies/goblin/spr_axe_strip10.png"
+dest_files=["res://.godot/imported/spr_axe_strip10.png-2b155a9bdd9a5d28f9fd4cd2aaa1da34.ctex"]
 
 [params]
 

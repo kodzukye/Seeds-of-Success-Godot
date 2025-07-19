@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci3sdd0plsoa"
-path="res://.godot/imported/expression_stress.png-30d9beae8a4f508cc73dd7dd33170fe1.ctex"
+path="res://.godot/imported/expression_stress.png-eb71266b0576ee33e3411deb693392ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/UI/expression_stress.png"
-dest_files=["res://.godot/imported/expression_stress.png-30d9beae8a4f508cc73dd7dd33170fe1.ctex"]
+source_file="res://assets/sprites/ui/expression_stress.png"
+dest_files=["res://.godot/imported/expression_stress.png-eb71266b0576ee33e3411deb693392ca.ctex"]
 
 [params]
 

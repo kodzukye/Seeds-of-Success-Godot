@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ds74mmacy073k"
-path="res://.godot/imported/lt_box_9slice_bl.png-59942dd41e125d9b6b7ab7e47f1f669d.ctex"
+path="res://.godot/imported/lt_box_9slice_bl.png-622708029ef2f34ee0a6e88f6dafeede.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/UI/9slice_box_white/lt_box_9slice_bl.png"
-dest_files=["res://.godot/imported/lt_box_9slice_bl.png-59942dd41e125d9b6b7ab7e47f1f669d.ctex"]
+source_file="res://assets/sprites/ui/9slice_box_white/lt_box_9slice_bl.png"
+dest_files=["res://.godot/imported/lt_box_9slice_bl.png-622708029ef2f34ee0a6e88f6dafeede.ctex"]
 
 [params]
 

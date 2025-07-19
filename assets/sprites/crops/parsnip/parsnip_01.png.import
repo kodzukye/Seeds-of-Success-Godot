@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxaj634ssmx04"
-path="res://.godot/imported/parsnip_01.png-53a99e00fb4abc9a3451319ae4a7cc9a.ctex"
+path="res://.godot/imported/parsnip_01.png-5ba077d679eaca9a7f37975bcf07d1f8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Crops/Parsnip/parsnip_01.png"
-dest_files=["res://.godot/imported/parsnip_01.png-53a99e00fb4abc9a3451319ae4a7cc9a.ctex"]
+source_file="res://assets/sprites/crops/parsnip/parsnip_01.png"
+dest_files=["res://.godot/imported/parsnip_01.png-5ba077d679eaca9a7f37975bcf07d1f8.ctex"]
 
 [params]
 

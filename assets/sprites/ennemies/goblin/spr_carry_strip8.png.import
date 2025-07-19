@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cy5t48pgu87s"
-path="res://.godot/imported/spr_carry_strip8.png-161460b76b095c798527326b1a0d7abe.ctex"
+path="res://.godot/imported/spr_carry_strip8.png-f25096eeb4618d3c6fbf86f45cc3759b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Ennemies/Goblin/spr_carry_strip8.png"
-dest_files=["res://.godot/imported/spr_carry_strip8.png-161460b76b095c798527326b1a0d7abe.ctex"]
+source_file="res://assets/sprites/ennemies/goblin/spr_carry_strip8.png"
+dest_files=["res://.godot/imported/spr_carry_strip8.png-f25096eeb4618d3c6fbf86f45cc3759b.ctex"]
 
 [params]
 

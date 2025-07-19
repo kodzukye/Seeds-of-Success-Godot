@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://skhprueo8q4s"
-path="res://.godot/imported/spr_deco_duck_01_strip4.png-587e583137a8865bf27e548ee525004b.ctex"
+path="res://.godot/imported/spr_deco_duck_01_strip4.png-6e8b9d8985d38efddcc4d1e5ac6783d0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Animals/spr_deco_duck_01_strip4.png"
-dest_files=["res://.godot/imported/spr_deco_duck_01_strip4.png-587e583137a8865bf27e548ee525004b.ctex"]
+source_file="res://assets/sprites/animals/spr_deco_duck_01_strip4.png"
+dest_files=["res://.godot/imported/spr_deco_duck_01_strip4.png-6e8b9d8985d38efddcc4d1e5ac6783d0.ctex"]
 
 [params]
 

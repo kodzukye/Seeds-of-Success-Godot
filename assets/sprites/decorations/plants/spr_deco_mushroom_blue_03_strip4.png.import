@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chuog7cars21h"
-path="res://.godot/imported/spr_deco_mushroom_blue_03_strip4.png-68b9f1e364bb14ac5f68a4a616de64d7.ctex"
+path="res://.godot/imported/spr_deco_mushroom_blue_03_strip4.png-bb67b36a334a8c102097d815b6553213.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Decorations/Plants/spr_deco_mushroom_blue_03_strip4.png"
-dest_files=["res://.godot/imported/spr_deco_mushroom_blue_03_strip4.png-68b9f1e364bb14ac5f68a4a616de64d7.ctex"]
+source_file="res://assets/sprites/decorations/plants/spr_deco_mushroom_blue_03_strip4.png"
+dest_files=["res://.godot/imported/spr_deco_mushroom_blue_03_strip4.png-bb67b36a334a8c102097d815b6553213.ctex"]
 
 [params]
 
