@@ -1,7 +1,10 @@
-[gd_scene load_steps=5 format=4 uid="uid://dhs8q5ynocrjd"]
+[gd_scene load_steps=8 format=4 uid="uid://dhs8q5ynocrjd"]
 
 [ext_resource type="PackedScene" uid="uid://5ttu1fe400ue" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="Texture2D" uid="uid://vnjkx0gg51fc" path="res://assets/tilesets/tilesets.png" id="1_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://ev0nxk6cruw6" path="res://scenes/enemies/sword_demon.tscn" id="3_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://dh33lsugu72km" path="res://scenes/enemies/mage_demon.tscn" id="4_lbhrr"]
+[ext_resource type="PackedScene" uid="uid://1cmrvf5johc2" path="res://scenes/enemies/morph_demon.tscn" id="5_iywne"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yqjtg"]
 texture = ExtResource("1_yqjtg")
@@ -2122,3 +2125,15 @@ position = Vector2(75, -1)
 position = Vector2(1, -6)
 zoom = Vector2(4, 4)
 position_smoothing_speed = 1.0
+
+[node name="SwordDemon" parent="." instance=ExtResource("3_lnu2h")]
+z_index = 4
+position = Vector2(-9, 69)
+
+[node name="MageDemon" parent="." instance=ExtResource("4_lbhrr")]
+z_index = 4
+position = Vector2(-16, 33)
+
+[node name="MorphDemon" parent="." instance=ExtResource("5_iywne")]
+z_index = 4
+position = Vector2(28, 43)
