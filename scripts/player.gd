@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 
-const SPEED = 75
+const SPEED = 4000
 const SPRINT = SPEED * 1.75
 @onready var base_sprite_animation: AnimatedSprite2D = $BaseSpriteAnimation
 @onready var hair_sprite_animation: AnimatedSprite2D = $HairSpriteAnimation
@@ -12,9 +12,6 @@ var is_sprinting = false
 
 
 func _physics_process(delta: float) -> void:
-	# Get horizontal direction
-	var direction1 := Input.get_axis("move_left", "move_right")
-	
 	# Check movements inputs
 	if Input.is_action_pressed("move_up"):
 		direction = Vector2.UP
@@ -60,8 +57,8 @@ func _physics_process(delta: float) -> void:
 		
 	# Apply the speed
 	if is_sprinting and direction != Vector2.ZERO:
-		velocity = direction * SPRINT
+		velocity = delta * direction * SPRINT
 	else:
-		velocity = direction * SPEED
+		velocity = delta * direction * SPEED
 
 	move_and_slide()

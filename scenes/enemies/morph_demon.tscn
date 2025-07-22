@@ -335,9 +335,8 @@ height = 18.0
 
 [node name="AnimatedSprite" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_sbbqe")
-animation = &"hit"
+animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.220822
 
 [node name="CollisionShape" type="CollisionShape2D" parent="."]
 visible = false
