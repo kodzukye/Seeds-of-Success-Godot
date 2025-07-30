@@ -1,16 +1,17 @@
 [gd_scene load_steps=6 format=3 uid="uid://dhs8q5ynocrjd"]
 
-[ext_resource type="PackedScene" uid="uid://5ttu1fe400ue" path="res://scenes/player.tscn" id="1_uwrxv"]
-[ext_resource type="PackedScene" uid="uid://ev0nxk6cruw6" path="res://scenes/enemies/sword_demon.tscn" id="3_lnu2h"]
-[ext_resource type="PackedScene" uid="uid://dh33lsugu72km" path="res://scenes/enemies/mage_demon.tscn" id="4_lbhrr"]
-[ext_resource type="PackedScene" uid="uid://1cmrvf5johc2" path="res://scenes/enemies/morph_demon.tscn" id="5_iywne"]
-[ext_resource type="PackedScene" uid="uid://co76bm34ca3r2" path="res://scenes/Map/overworld.tscn" id="5_p57ef"]
+[ext_resource type="PackedScene" uid="uid://5ttu1fe400ue" path="res://Scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://ev0nxk6cruw6" path="res://Scenes/enemies/sword_demon.tscn" id="3_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://dh33lsugu72km" path="res://Scenes/enemies/mage_demon.tscn" id="4_lbhrr"]
+[ext_resource type="PackedScene" uid="uid://1cmrvf5johc2" path="res://Scenes/enemies/morph_demon.tscn" id="5_iywne"]
+[ext_resource type="PackedScene" uid="uid://co76bm34ca3r2" path="res://Scenes/Map/overworld.tscn" id="5_p57ef"]
 
 [node name="Game" type="Node2D"]
 
 [node name="PlayerBody" parent="." instance=ExtResource("1_uwrxv")]
 z_index = 5
-position = Vector2(223, 35)
+position = Vector2(505, 40)
+collision_layer = 3
 
 [node name="Camera2D" type="Camera2D" parent="PlayerBody"]
 position = Vector2(1, -6)
@@ -19,7 +20,9 @@ position_smoothing_speed = 1.0
 
 [node name="SwordDemon" parent="." instance=ExtResource("3_lnu2h")]
 z_index = 4
-position = Vector2(162, 165)
+position = Vector2(358, 264)
+collision_layer = 2
+collision_mask = 2
 
 [node name="MageDemon" parent="." instance=ExtResource("4_lbhrr")]
 z_index = 4

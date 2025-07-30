@@ -1,5 +1,6 @@
-[gd_scene load_steps=65 format=3 uid="uid://ev0nxk6cruw6"]
+[gd_scene load_steps=67 format=3 uid="uid://ev0nxk6cruw6"]
 
+[ext_resource type="Script" uid="uid://c2op4odxh3n0d" path="res://scripts/enemies/sword_demon.gd" id="1_0pyfm"]
 [ext_resource type="Texture2D" uid="uid://dvhkf3mhndvgp" path="res://assets/sprites/ennemies/demon/Sword.png" id="1_o7d8e"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q8e7i"]
@@ -451,6 +452,9 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_0pyfm"]
+radius = 83.0
+
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3jnf8"]
 radius = 4.0
 height = 18.0
@@ -492,12 +496,20 @@ _data = {
 }
 
 [node name="SwordDemon" type="CharacterBody2D"]
+script = ExtResource("1_0pyfm")
 
 [node name="AnimatedSprite" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_17x8g")
 animation = &"idle"
 autoplay = "idle"
 frame_progress = 0.0310932
+
+[node name="detection_area" type="Area2D" parent="."]
+position = Vector2(1, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
+position = Vector2(-33, 7)
+shape = SubResource("CircleShape2D_0pyfm")
 
 [node name="CollisionShape" type="CollisionShape2D" parent="."]
 position = Vector2(-32, 7)
@@ -509,3 +521,6 @@ shape = SubResource("CapsuleShape2D_3jnf8")
 libraries = {
 &"": SubResource("AnimationLibrary_3ldhk")
 }
+
+[connection signal="body_entered" from="detection_area" to="." method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="detection_area" to="." method="_on_detection_area_body_exited"]
