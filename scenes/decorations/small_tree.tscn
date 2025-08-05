@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=3 uid="uid://d1ap3gm6c7tak"]
+
+[ext_resource type="Texture2D" uid="uid://b6mtri18wvru5" path="res://assets/sprites/decorations/plants/spr_deco_tree_02_strip4.png" id="1_6qdcn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cbofk"]
+atlas = ExtResource("1_6qdcn")
+region = Rect2(0, 0, 28, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_edle5"]
+atlas = ExtResource("1_6qdcn")
+region = Rect2(28, 0, 28, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_op2fy"]
+atlas = ExtResource("1_6qdcn")
+region = Rect2(56, 0, 28, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_il4bs"]
+atlas = ExtResource("1_6qdcn")
+region = Rect2(84, 0, 28, 43)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_75mtu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cbofk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_edle5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_op2fy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_il4bs")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
+
+[node name="SmallTree" type="AnimatableBody2D"]
+y_sort_enabled = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_75mtu")
+autoplay = "default"
+frame_progress = 0.809839
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+visible = false
+polygon = PackedVector2Array(-4, 11, -5, 13, -5, 16, 0, 17, 5, 16, 5, 13, 4, 11)

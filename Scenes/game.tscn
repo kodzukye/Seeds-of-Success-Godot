@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://co76bm34ca3r2" path="res://scenes/Map/overworld.tscn" id="5_p57ef"]
 
 [node name="Game" type="Node2D"]
+y_sort_enabled = true
 
 [node name="PlayerBody" parent="." instance=ExtResource("1_uwrxv")]
 z_index = 5

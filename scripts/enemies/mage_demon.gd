@@ -9,5 +9,4 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if animated_sprite.animation == "attack2":
-		print("attack2")
+	pass

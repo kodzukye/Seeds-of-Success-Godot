@@ -41,19 +41,19 @@ func _physics_process(delta: float) -> void:
 		
 	# Play animations
 	if direction == Vector2.ZERO:
-		base_sprite_animation.play("idle_base")
-		hair_sprite_animation.play("idle_hair")
-		tool_sprite_animation.play("idle_tool")
+		base_sprite_animation.play("idle")
+		hair_sprite_animation.play("idle")
+		tool_sprite_animation.play("idle")
 		
 	elif is_sprinting and direction != Vector2.ZERO:
-		base_sprite_animation.play("running_base")
-		hair_sprite_animation.play("running_hair")
-		tool_sprite_animation.play("running_tool")
+		base_sprite_animation.play("run")
+		hair_sprite_animation.play("run")
+		tool_sprite_animation.play("run")
 		
 	else:
-		base_sprite_animation.play("walking_base")
-		hair_sprite_animation.play("walking_hair")
-		tool_sprite_animation.play("walking_tool")
+		base_sprite_animation.play("walking")
+		hair_sprite_animation.play("walking")
+		tool_sprite_animation.play("walking")
 		
 	# Apply the speed
 	if is_sprinting and direction != Vector2.ZERO:
