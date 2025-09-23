@@ -1,64 +1,50 @@
+# PlayerBody.gd (version modifiée)
 extends CharacterBody2D
-
 
 const SPEED = 4000
 const SPRINT = SPEED * 1.75
+
 @onready var base_sprite_animation: AnimatedSprite2D = $BaseSpriteAnimation
 @onready var hair_sprite_animation: AnimatedSprite2D = $HairSpriteAnimation
 @onready var tool_sprite_animation: AnimatedSprite2D = $ToolSpriteAnimation
+@onready var state_machine: StateMachine = $StateMachine
 
-var direction : Vector2
-var is_sprinting = false
+# Variables supplémentaires pour les systèmes du jeu
+var is_day_phase: bool = true
+var can_interact: bool = true
 
+func _ready() -> void:
+	# La state machine gère maintenant les états
+	pass
 
 func _physics_process(delta: float) -> void:
-	# Check movements inputs
-	if Input.is_action_pressed("move_up"):
-		direction = Vector2.UP
-	elif Input.is_action_pressed("move_down"):
-		direction = Vector2.DOWN
-	elif Input.is_action_pressed("move_left"):
-		direction = Vector2.LEFT
-	elif Input.is_action_pressed("move_right"):
-		direction = Vector2.RIGHT
-	else:
-		direction = Vector2.ZERO
-		
-	if Input.is_action_pressed("sprint"):
-		is_sprinting = true
-	else:
-		is_sprinting = false
-	
-	# Flipping the sprite
-	if direction == Vector2.RIGHT: # Right
-		base_sprite_animation.flip_h = false
-		hair_sprite_animation.flip_h = false
-		tool_sprite_animation.flip_h = false
-	elif direction == Vector2.LEFT: # Left
-		base_sprite_animation.flip_h = true
-		hair_sprite_animation.flip_h = true
-		tool_sprite_animation.flip_h = true
-		
-	# Play animations
-	if direction == Vector2.ZERO:
-		base_sprite_animation.play("idle")
-		hair_sprite_animation.play("idle")
-		tool_sprite_animation.play("idle")
-		
-	elif is_sprinting and direction != Vector2.ZERO:
-		base_sprite_animation.play("run")
-		hair_sprite_animation.play("run")
-		tool_sprite_animation.play("run")
-		
-	else:
-		base_sprite_animation.play("walking")
-		hair_sprite_animation.play("walking")
-		tool_sprite_animation.play("walking")
-		
-	# Apply the speed
-	if is_sprinting and direction != Vector2.ZERO:
-		velocity = delta * direction * SPRINT
-	else:
-		velocity = delta * direction * SPEED
+	# La state machine gère le mouvement et les animations
+	# On peut ajouter ici des systèmes spécifiques au jeu
+	pass
 
-	move_and_slide()
+# Méthodes utilitaires pour les états
+func get_current_state() -> String:
+	if state_machine:
+		return state_machine.get_current_state_name()
+	return ""
+
+func is_moving() -> bool:
+	return velocity.length() > 0
+
+# Méthodes pour les interactions spécifiques au jeu
+func can_farm() -> bool:
+	return is_day_phase and can_interact
+
+func can_combat() -> bool:
+	return not is_day_phase and can_interact
+
+func set_day_phase(is_day: bool) -> void:
+	is_day_phase = is_day
+	# Ici on pourrait changer vers des états spécifiques jour/nuit si nécessaire
+
+func disable_movement() -> void:
+	can_interact = false
+	state_machine.change_state("idle")
+
+func enable_movement() -> void:
+	can_interact = true

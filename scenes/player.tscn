@@ -1,4 +1,4 @@
-[gd_scene load_steps=700 format=3 uid="uid://5ttu1fe400ue"]
+[gd_scene load_steps=705 format=3 uid="uid://5ttu1fe400ue"]
 
 [ext_resource type="Script" uid="uid://d055fixjk1xpv" path="res://scripts/player.gd" id="1_dqkch"]
 [ext_resource type="Texture2D" uid="uid://ctqqhgccxswkl" path="res://assets/sprites/player/idle/base_idle_strip9.png" id="1_qhqgy"]
@@ -61,7 +61,12 @@
 [ext_resource type="Texture2D" uid="uid://ba1ppe1tleyjj" path="res://assets/sprites/player/swimming/tools_swimming_strip12.png" id="58_vx63k"]
 [ext_resource type="Texture2D" uid="uid://2u8qm2tjt0ar" path="res://assets/sprites/player/waiting/tools_waiting_strip9.png" id="59_lw0jh"]
 [ext_resource type="Texture2D" uid="uid://duh7ey6gcwsm3" path="res://assets/sprites/player/watering/tools_watering_strip5.png" id="61_ry8ed"]
-[ext_resource type="Script" uid="uid://crdx7wrpdbg76" path="res://scripts/state_machine/node_state_machine.gd" id="62_nubpm"]
+[ext_resource type="Script" uid="uid://btd78i7m87n4l" path="res://scripts/state_machine/StateMachine.gd" id="62_nubpm"]
+[ext_resource type="Script" uid="uid://bnr78h75y6d54" path="res://scripts/state_machine/states/idle.gd" id="63_ua5cf"]
+[ext_resource type="Script" uid="uid://bu13xs1giwyfr" path="res://scripts/state_machine/states/walking.gd" id="64_51ujp"]
+[ext_resource type="Script" uid="uid://bdueuvbqak54g" path="res://scripts/state_machine/states/jump.gd" id="64_fuw3a"]
+[ext_resource type="Script" uid="uid://deji1xow0xbae" path="res://scripts/state_machine/states/run.gd" id="64_tk41t"]
+[ext_resource type="Script" uid="uid://ttilcsk8bed4" path="res://scripts/state_machine/states/roll.gd" id="65_8txt3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_p21yu"]
 atlas = ExtResource("2_md1ol")
@@ -4860,21 +4865,26 @@ script = ExtResource("62_nubpm")
 [node name="hurt" type="Node" parent="StateMachine"]
 
 [node name="idle" type="Node" parent="StateMachine"]
+script = ExtResource("63_ua5cf")
 
 [node name="jump" type="Node" parent="StateMachine"]
+script = ExtResource("64_fuw3a")
 
 [node name="mining" type="Node" parent="StateMachine"]
 
 [node name="reeling" type="Node" parent="StateMachine"]
 
 [node name="roll" type="Node" parent="StateMachine"]
+script = ExtResource("65_8txt3")
 
 [node name="run" type="Node" parent="StateMachine"]
+script = ExtResource("64_tk41t")
 
 [node name="swimming" type="Node" parent="StateMachine"]
 
 [node name="waiting" type="Node" parent="StateMachine"]
 
 [node name="walking" type="Node" parent="StateMachine"]
+script = ExtResource("64_51ujp")
 
 [node name="watering" type="Node" parent="StateMachine"]
