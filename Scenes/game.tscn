@@ -11,7 +11,8 @@ y_sort_enabled = true
 
 [node name="PlayerBody" parent="." instance=ExtResource("1_uwrxv")]
 z_index = 5
-position = Vector2(223, 35)
+position = Vector2(355, 491)
+collision_layer = 3
 
 [node name="Camera2D" type="Camera2D" parent="PlayerBody"]
 position = Vector2(1, -6)
@@ -20,15 +21,17 @@ position_smoothing_speed = 1.0
 
 [node name="SwordDemon" parent="." instance=ExtResource("3_lnu2h")]
 z_index = 4
-position = Vector2(162, 165)
+position = Vector2(232, 447)
+collision_layer = 2
+collision_mask = 2
 
 [node name="MageDemon" parent="." instance=ExtResource("4_lbhrr")]
 z_index = 4
-position = Vector2(76, 131)
+position = Vector2(599, 377)
 
 [node name="MorphDemon" parent="." instance=ExtResource("5_iywne")]
 z_index = 4
-position = Vector2(151, 75)
+position = Vector2(593, 640)
 
 [node name="Overworld" parent="." instance=ExtResource("5_p57ef")]
-position = Vector2(64, 48)
+position = Vector2(156, 388)
