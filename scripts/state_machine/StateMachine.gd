@@ -20,9 +20,9 @@ func _ready() -> void:
 		current_state = states["idle"]
 		current_state.enter()
 
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	if current_state:
-		var new_state = current_state.update(delta)
+		var new_state = current_state.update(_delta)
 		if new_state:
 			change_state(new_state)
 

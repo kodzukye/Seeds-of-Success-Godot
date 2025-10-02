@@ -31,11 +31,11 @@ func _ready() -> void:
 	# La state machine gère maintenant les états
 	pass
 
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	# La state machine gère le mouvement et les animations
 	# On peut ajouter ici des systèmes spécifiques au jeu
 	if _sprint_pressed_time >= 0.0:
-		_sprint_pressed_time += delta
+		_sprint_pressed_time += _delta
 
 # Méthodes utilitaires pour les états
 func get_current_state() -> String:
