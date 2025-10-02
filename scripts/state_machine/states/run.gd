@@ -8,6 +8,10 @@ func enter() -> void:
 func update(delta: float) -> String:
 	var direction = get_movement_direction()
 	
+	# Tap sprint = roll
+	if player.consume_sprint_tap():
+		return "roll"
+	
 	# Si pas de direction, retourner à idle
 	if direction == Vector2.ZERO:
 		return "idle"

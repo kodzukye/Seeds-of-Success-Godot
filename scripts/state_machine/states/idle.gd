@@ -8,6 +8,9 @@ func enter() -> void:
 
 func update(delta: float) -> String:
 	# Vérifier les inputs de mouvement
+	# Priorité: tap sprint -> roll
+	if player.consume_sprint_tap():
+		return "roll"
 	if Input.is_action_pressed("move_up") or Input.is_action_pressed("move_down") or \
 	   Input.is_action_pressed("move_left") or Input.is_action_pressed("move_right"):
 		if Input.is_action_pressed("sprint"):
