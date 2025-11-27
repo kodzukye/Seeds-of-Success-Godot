@@ -8,7 +8,6 @@
 ![Godot](https://img.shields.io/badge/Godot-4.4.1-478cbf?logo=godot-engine&logoColor=white)
 ![Language](https://img.shields.io/badge/language-GDScript-355570)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
-![License](https://img.shields.io/badge/license-MIT-blue)
 ![Game Type](https://img.shields.io/badge/genre-farming%20%7C%20tower%20defense-orange)
 
 </div>
@@ -73,3 +72,5 @@ This prototype included:
 ## 🚫 Why Archived?
 
 This Godot prototype served as a proof-of-concept for the core gameplay mechanics. After successful validation of the hybrid farming-combat concept, the development team decided to transition to Unreal Engine for enhanced graphics capabilities and performance optimization.
+
+
